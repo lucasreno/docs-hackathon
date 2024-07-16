@@ -171,9 +171,9 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [ ] Diagramas
     - [ ] Diagrama da infraestrutura ![Diagrama](https://private-user-images.githubusercontent.com/62509668/331057778-7c38cada-664a-4c45-a5c0-d3b0f7cdce47.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwODk3MDEsIm5iZiI6MTcyMTA4OTQwMSwicGF0aCI6Ii82MjUwOTY2OC8zMzEwNTc3NzgtN2MzOGNhZGEtNjY0YS00YzQ1LWE1YzAtZDNiMGY3Y2RjZTQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE2VDAwMjMyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5ZjUyYmZjM2ZlZjk0MzY2NmIwNGViMmY4NWUwOGQwYTU3YTNlOWZmZGFhZjQxN2E1ZWM0NjEzYzA4N2U2MzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.pjjGDGt_XJH7ki7tbWGNRtT0cLusMDA-pMBYn08flqI)
-    - [ ] Modelagem Entidade-Relacionamento
-    - [ ] Storytelling (egon.io)
-    - [ ] Diagrama de sequência
+    - [x] Modelagem Entidade-Relacionamento
+    - [ ] Storytelling (egon.io) (Carloto)
+    - [ ] Diagrama de sequência (Lucas)
     - [ ] Diagrama de status (Status consultas)
     - [ ] Diagrama de fluxo com Endpoints
     - [ ] Diagrama Clean Architecture ![Diagrama](https://private-user-images.githubusercontent.com/62509668/332299867-3b959abe-924c-424a-84b5-ab0b1dc11730.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwODk5MjUsIm5iZiI6MTcyMTA4OTYyNSwicGF0aCI6Ii82MjUwOTY2OC8zMzIyOTk4NjctM2I5NTlhYmUtOTI0Yy00MjRhLTg0YjUtYWIwYjFkYzExNzMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE2VDAwMjcwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjlmMDdlZjNjMGMwNjYyZmRiNzBmMzM1ZDVhMzNiNTBiY2Y1MmRiOWIxYjRhNjE5OWQwMmNhZDU5ZjhiZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sYbsPfZQ45PVCnXDCGkjdxKJs4mRZTe9nL0ds_Xm_bc)
