@@ -20,9 +20,9 @@ erDiagram
     
     CONSULTA {
         int id PK "AI"
-        string cpf_paciente FK
+        int id_agenda FK
         string crm_medico FK
-        date data_horario
+        string cpf_paciente FK
         string status "['Solicitada', 'Aceita', 'Recusada', 'Cancelada']"
         boolean realizada
     }
@@ -42,8 +42,9 @@ erDiagram
     }
 
     ARQUIVO ||--o{ AUTORIZACAO_ACESSO: possui
-    MEDICO ||--o{ AGENDA: disponibiliza
-    MEDICO ||--o{ CONSULTA: realiza
-    MEDICO ||--o{ AUTORIZACAO_ACESSO: solicita    
     PACIENTE ||--o{ CONSULTA: solicita
     PACIENTE ||--o{ ARQUIVO: possui
+    MEDICO ||--o{ AGENDA: disponibiliza
+    MEDICO ||--o{ CONSULTA: realiza
+    MEDICO ||--o{ AUTORIZACAO_ACESSO: solicita
+    AGENDA ||--o{ CONSULTA: possui
