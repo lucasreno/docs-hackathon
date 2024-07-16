@@ -28,6 +28,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ### Linguagem Ubíqua
 - Saúde: área de atuação do sistema
+- Telemedicina: prática de medicina à distância
 - Paciente: pessoa que busca atendimento médico
 - Médico: profissional de saúde que atende pacientes
 - Especialidade: área de atuação do médico
@@ -185,3 +186,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - Performance: Separar banco de dados de leitura e escrita
 - Motivo de agregar agenda e consulta: Os domínios estão muito próximos e tem relação, a separação elevaria a complexidade sem justificativa clara
 - Procurar uma maneira de implementar RESILIÊNCIA COM CIRCUIT BREAKER
+
+Considerações: 
+Douglas caminho certo
+MVP > Depois outros pontos
+Sprint
+Alta disponbilidade
+Inserir ElasticSearch - Grafana
