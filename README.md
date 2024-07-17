@@ -123,6 +123,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Médico gerencia agenda_2024-07-16](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-16.png)
 
+#### Paciente visualiza histórico de consultas
+
+![Paciente visualiza histórico de consultas_2024-07-16](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-16.png)
+
 ### Diagramas
 
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
