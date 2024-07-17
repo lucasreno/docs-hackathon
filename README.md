@@ -139,6 +139,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Reagendamento de consulta pelo médico_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-17.png)
 
+#### Cancelamento de consulta pelo paciente
+
+![Cancelamento de consulta pelo paciente](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-17.png)
+
 ### Diagramas
 
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
