@@ -102,6 +102,8 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 
 ### Domain Storytelling
+#### Paciente agenda consulta
+![Paciente agenda consulta_2024-07-16](https://github.com/user-attachments/assets/7400a26d-d042-4ad9-a06f-018b0fbc29ef)
 
 ### Diagramas
 #### 1. [Modelo entidade-relacionamento](https://github.com/lucasreno/docs-hackathon/blob/master/modelo-entidade-relacionamento.md)
