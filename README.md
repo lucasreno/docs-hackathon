@@ -201,8 +201,8 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - [x] Criar microsserviços autenticação (Math)
   - [x] Adaptar cliente -> médico e paciente
 - [ ] Criar microsserviços consulta (Math + Ale)
-  - [ ] Modelar banco de dados
-  - [ ] Implementar CRUD de horários
+  - [x] Modelar banco de dados
+  - [x] Implementar CRUD de horários
   - [ ] Implementar agendamento de consulta
   - [ ] Implementar listagem de horários disponíveis
   - [ ] Implementar listagem de consultas agendadas
