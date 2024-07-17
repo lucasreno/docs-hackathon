@@ -186,6 +186,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [ ] Relatório SonarQube
     - [ ] Relatório OWASP ZAP
     - [ ] Saga coreografada
+- [ ] Fechar todas as branches
 
 ### Ideias
 - Performance: Separar banco de dados de leitura e escrita
