@@ -91,7 +91,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   2. Médico visualiza consultas agendadas
   3. Médico solicita reagendamento
   4. Sistema envia notificação para paciente
-  5. Paciente aceita/recusa reagendamento
+  5. Paciente aceita/cancela reagendamento
   6. Sistema envia notificação para médico
 - h. Cancelamento de consulta pelo paciente
   1. Paciente acessa o sistema
