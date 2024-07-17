@@ -139,10 +139,11 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ### Microsserviços
 - Autenticação (Cognito + Postgres)
-    - Medico CRM+Senha
-    - Paciente Email+CPF+Senha
-    - Decodificar JWT
-    - Exclusão de usuário
+    - [x] Medico CRM+Senha
+    - [x] Paciente Email+CPF+Senha
+    - [x] Decodificar JWT
+    - [ ] Exclusão de usuário
+    - [x] Cadastro de usuário
 - Consulta (Postgres + Redis(Cache))
     - Cadastro/Alteração de horários (médico)
     - Listagem de horários disponíveis (médico)
@@ -170,7 +171,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [ ] Implementar aceite/recusa de consulta
     - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [ ] Diagramas
-    - [ ] Diagrama da infraestrutura (Lucas)
+    - [x] Diagrama da infraestrutura (Lucas)
     - [x] Modelagem Entidade-Relacionamento
     - [ ] Storytelling (egon.io) (Carloto)
     - [ ] Diagrama de sequência (Lucas)
@@ -191,6 +192,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - Motivo de agregar agenda e consulta: Os domínios estão muito próximos e tem relação, a separação elevaria a complexidade sem justificativa clara
 - Procurar uma maneira de implementar RESILIÊNCIA COM CIRCUIT BREAKER
 - Documentar: Consulta 50min médico só pode agendar de hora em hora
+- Se der tempo: Cobertura de testes (80%)
 
 Considerações: 
 Douglas caminho certo
