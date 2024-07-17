@@ -225,9 +225,9 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - [ ] Criar microsserviços consulta (Math + Ale)
   - [x] Modelar banco de dados
   - [x] Implementar CRUD de horários
-  - [ ] Implementar agendamento de consulta
-  - [ ] Implementar listagem de horários disponíveis
-  - [ ] Implementar listagem de consultas agendadas
+  - [x] Implementar agendamento de consulta
+  - [x] Implementar listagem de horários disponíveis
+  - [x] Implementar listagem de consultas agendadas
   - [ ] Implementar aceite/recusa de consulta
   - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [ ] Diagramas
