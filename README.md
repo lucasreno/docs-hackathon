@@ -160,8 +160,8 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 ### Todo
 - [ ] Criar infraestrutura
     - [ ] Adicionar Github Actions
-- [ ] Criar microsserviços autenticação (Math)
-    - [ ] Adaptar cliente -> médico e paciente
+- [x] Criar microsserviços autenticação (Math)
+    - [x] Adaptar cliente -> médico e paciente
 - [ ] Criar microsserviços consulta (Math + Ale)
     - [ ] Modelar banco de dados
     - [ ] Implementar CRUD de horários
@@ -172,7 +172,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [ ] Diagramas
     - [x] Diagrama da infraestrutura (Lucas)
-    - [x] Modelagem Entidade-Relacionamento
+    - [x] Modelagem Entidade-Relacionamento (Lucas)
     - [ ] Storytelling (egon.io) (Carloto)
     - [ ] Diagrama de sequência (Lucas)
     - [ ] Diagrama de status (Status consultas)
