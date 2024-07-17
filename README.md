@@ -131,6 +131,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Paciente autoriza acesso a prontuário_2024-07-17](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-17.png)
 
+#### Reagendamento de consulta pelo paciente
+
+![Reagendamento de consulta pelo paciente_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-17.png)
+
 ### Diagramas
 
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
