@@ -77,14 +77,21 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     4. Sistema envia notificação para médico
     5. Médico aceita/recusa reagendamento
     6. Sistema envia notificação para paciente
-- g. Cancelamento de consulta pelo paciente
+- g. Reagendamento de consulta pelo médico
+    1. Médico acessa o sistema
+    2. Médico visualiza consultas agendadas
+    3. Médico solicita reagendamento
+    4. Sistema envia notificação para paciente
+    5. Paciente aceita/recusa reagendamento
+    6. Sistema envia notificação para médico 
+- h. Cancelamento de consulta pelo paciente
     1. Paciente acessa o sistema
     2. Paciente visualiza consultas agendadas
     3. Paciente solicita cancelamento
     4. Verificação se é possível cancelar a consulta
         - Regra: consulta pode ser cancelada até 24h antes do horário marcado
     5. Sistema envia notificação para médico
-- h. Cancelamento de consulta pelo médico
+- i. Cancelamento de consulta pelo médico
     1. Médico acessa o sistema
     2. Médico visualiza consultas agendadas
     3. Médico solicita cancelamento
@@ -92,19 +99,15 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
         - Regra: consulta pode ser cancelada até 24h antes do horário marcado
     5. Sistema envia notificação de cancelamento para paciente
     6. Sistema sugere reagendamento
-- i. Reagendamento de consulta pelo médico
-    1. Médico acessa o sistema
-    2. Médico visualiza consultas agendadas
-    3. Médico solicita reagendamento
-    4. Sistema envia notificação para paciente
-    5. Paciente aceita/recusa reagendamento
-    6. Sistema envia notificação para médico 
+
 
 ### Domain Storytelling
 
 ### Diagramas
 #### Modelo entidade-relacionamento
 [![](https://mermaid.ink/img/pako:eNqlVEtv2zAM_iuCLr04RR7Nw74ZjjcYW5M2jx26DAYrKYkAW_JkaVib5r9Xjm0kaYxtwXSwKZEiP_ITucNEUoY9zNSYw0ZBuhLIrgc_iMLJIkS7cl-sXCsuNohka_Tw5eKYpcATtMLLSfS4DFf4wkDIlJWH-_JXfu_DcRRMm-Ko9D_jnN7KM0Y4JJwCPaIoBf9zOBn7pwi40IhTG93G8aOGGBZbnDLKiUSfTiBqnrJcQ5ohChrirVSguDzqn6VMGAgkicmAyoZqBNPJfPl18Y9oSk0MGyYonCH5M84jk3EGhDOhWZPepqJNbqN-v5nLhBOugcKNg258wqxcSDNGTF6dBiAIS4rNj1OQddKK2fK_WnVD2v7scRl9m17HwV_QG5XEoH4a_kte6CjLieIE5MensFxMZ9GTH_jT2A_C-Xx6FRGZkkKbgvMryKjrA0ZLVRToAlRVnLe3VkvuGjB6KJN5bviH1q3s6yflobwisdmuCnPurOrO2uTQKR6iPM-k4M-8ILTJ8BizYr3RW0Mi5xCrzrxwWiPEDk6ZsgOB2gl2IGqF9ZbZ_seeFSlbg0l0QdTemhYFnr8Igj2tDHOwyWyXsmrsYW8NSW5PLUGWh_tyKh6Go4MzEE9SpvVFu8XeDv_GXn9423V7o6Hb6bfbvaE7cvAL9lp37q3bG_a6g_6g2xm5_e5g7-DXg4e21YwGo96d23fbha7jYCXNZlsB2L8DpDSm6w?type=png)](https://mermaid.live/edit#pako:eNqlVEtv2zAM_iuCLr04RR7Nw74ZjjcYW5M2jx26DAYrKYkAW_JkaVib5r9Xjm0kaYxtwXSwKZEiP_ITucNEUoY9zNSYw0ZBuhLIrgc_iMLJIkS7cl-sXCsuNohka_Tw5eKYpcATtMLLSfS4DFf4wkDIlJWH-_JXfu_DcRRMm-Ko9D_jnN7KM0Y4JJwCPaIoBf9zOBn7pwi40IhTG93G8aOGGBZbnDLKiUSfTiBqnrJcQ5ohChrirVSguDzqn6VMGAgkicmAyoZqBNPJfPl18Y9oSk0MGyYonCH5M84jk3EGhDOhWZPepqJNbqN-v5nLhBOugcKNg258wqxcSDNGTF6dBiAIS4rNj1OQddKK2fK_WnVD2v7scRl9m17HwV_QG5XEoH4a_kte6CjLieIE5MensFxMZ9GTH_jT2A_C-Xx6FRGZkkKbgvMryKjrA0ZLVRToAlRVnLe3VkvuGjB6KJN5bviH1q3s6yflobwisdmuCnPurOrO2uTQKR6iPM-k4M-8ILTJ8BizYr3RW0Mi5xCrzrxwWiPEDk6ZsgOB2gl2IGqF9ZbZ_seeFSlbg0l0QdTemhYFnr8Igj2tDHOwyWyXsmrsYW8NSW5PLUGWh_tyKh6Go4MzEE9SpvVFu8XeDv_GXn9423V7o6Hb6bfbvaE7cvAL9lp37q3bG_a6g_6g2xm5_e5g7-DXg4e21YwGo96d23fbha7jYCXNZlsB2L8DpDSm6w)
+
+#### [Diagramas de sequência](https://github.com/lucasreno/docs-hackathon/blob/master/diagramas-sequencia.md)
 
 ### Infraestrutura
 #### AWS
