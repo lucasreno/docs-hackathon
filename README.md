@@ -106,9 +106,9 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 ![Paciente agenda consulta_2024-07-16](https://github.com/user-attachments/assets/7400a26d-d042-4ad9-a06f-018b0fbc29ef)
 
 ### Diagramas
-#### 1. [Modelo entidade-relacionamento](https://github.com/lucasreno/docs-hackathon/blob/master/modelo-entidade-relacionamento.md)
+#### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
 
-#### 2. [Diagramas de sequência](https://github.com/lucasreno/docs-hackathon/blob/master/diagramas-sequencia.md)
+#### 2. [Diagramas de sequência](diagramas-sequencia.md)
 
 ### Infraestrutura
 #### AWS
