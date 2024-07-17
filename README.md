@@ -115,9 +115,16 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Paciente agenda consulta_2024-07-16](/domain-storytelling/Paciente%20agenda%20consulta_2024-07-16.png)
 
+#### Médico acessa prontuário
+
+![Médico acessa prontuário_2024-07-16](/domain-storytelling//Médico%20acessa%20prontuário_2024-07-16.png)
+
 ### Diagramas
+
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
+
 #### 2. [Diagramas de sequência](diagramas-sequencia.md)
+
 #### 3. [Diagrama de status](diagrama-status.md)
 
 ### Infraestrutura
@@ -194,13 +201,13 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [ ] Implementar aceite/recusa de consulta
   - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [ ] Diagramas
-    - [x] Diagrama da infraestrutura (Lucas)
-    - [x] Modelagem Entidade-Relacionamento (Lucas)
-    - [ ] Storytelling (egon.io) (Carloto)
-    - [x] Diagrama de sequência (Lucas)
-    - [x] Diagrama de status (Lucas)
-    - [ ] Diagrama de fluxo com Endpoints
-    - [ ] Diagrama Clean Architecture ![Diagrama](https://private-user-images.githubusercontent.com/62509668/332299867-3b959abe-924c-424a-84b5-ab0b1dc11730.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwODk5MjUsIm5iZiI6MTcyMTA4OTYyNSwicGF0aCI6Ii82MjUwOTY2OC8zMzIyOTk4NjctM2I5NTlhYmUtOTI0Yy00MjRhLTg0YjUtYWIwYjFkYzExNzMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE2VDAwMjcwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjlmMDdlZjNjMGMwNjYyZmRiNzBmMzM1ZDVhMzNiNTBiY2Y1MmRiOWIxYjRhNjE5OWQwMmNhZDU5ZjhiZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sYbsPfZQ45PVCnXDCGkjdxKJs4mRZTe9nL0ds_Xm_bc)
+  - [x] Diagrama da infraestrutura (Lucas)
+  - [x] Modelagem Entidade-Relacionamento (Lucas)
+  - [ ] Storytelling (egon.io) (Carloto)
+  - [x] Diagrama de sequência (Lucas)
+  - [x] Diagrama de status (Lucas)
+  - [ ] Diagrama de fluxo com Endpoints
+  - [ ] Diagrama Clean Architecture ![Diagrama](https://private-user-images.githubusercontent.com/62509668/332299867-3b959abe-924c-424a-84b5-ab0b1dc11730.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwODk5MjUsIm5iZiI6MTcyMTA4OTYyNSwicGF0aCI6Ii82MjUwOTY2OC8zMzIyOTk4NjctM2I5NTlhYmUtOTI0Yy00MjRhLTg0YjUtYWIwYjFkYzExNzMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE2VDAwMjcwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjlmMDdlZjNjMGMwNjYyZmRiNzBmMzM1ZDVhMzNiNTBiY2Y1MmRiOWIxYjRhNjE5OWQwMmNhZDU5ZjhiZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sYbsPfZQ45PVCnXDCGkjdxKJs4mRZTe9nL0ds_Xm_bc)
 - [ ] LGPD
   - [ ] Documentar sobre LGPD
   - [ ] Dados sensíveis (Saúde)
