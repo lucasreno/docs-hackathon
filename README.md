@@ -119,6 +119,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Médico acessa prontuário_2024-07-16](/domain-storytelling//Médico%20acessa%20prontuário_2024-07-16.png)
 
+#### Médico gerencia agenda
+
+![Médico gerencia agenda_2024-07-16](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-16.png)
+
 ### Diagramas
 
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
