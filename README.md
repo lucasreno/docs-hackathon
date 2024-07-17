@@ -127,6 +127,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ![Paciente visualiza histórico de consultas_2024-07-16](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-16.png)
 
+#### Paciente autoriza acesso a prontuário
+
+![Paciente autoriza acesso a prontuário_2024-07-17](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-17.png)
+
 ### Diagramas
 
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
