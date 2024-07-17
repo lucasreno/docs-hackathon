@@ -142,7 +142,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [x] Medico CRM+Senha
     - [x] Paciente Email+CPF+Senha
     - [x] Decodificar JWT
-    - [ ] Exclusão de usuário
+    - [x] Exclusão de usuário
     - [x] Cadastro de usuário
 - Consulta (Postgres + Redis(Cache))
     - Cadastro/Alteração de horários (médico)
