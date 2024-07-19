@@ -204,12 +204,13 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [x] Exclusão de usuário
   - [x] Cadastro de usuário
 - Consulta (Postgres + Redis(Cache))
-  - Cadastro/Alteração de horários (médico)
-  - Listagem de horários disponíveis (médico)
-  - Agendamento de consulta
-  - Reagendamento de consulta
-  - Cancelamento de consulta
-  - Histórico de consultas
+  - [x] Cadastro de horários (médico)
+  - [ ] Exclusão de horários (médico)
+  - [x] Listagem de horários disponíveis (médico)
+  - [x] Agendamento de consulta
+  - [ ] Reagendamento de consulta
+  - [ ] Cancelamento de consulta
+  - [x] Histórico de consultas
 - Prontuário (Storage + Cassandra)
   - Documentos (Exames, Laudos)
   - Gerenciamento de acesso
@@ -233,7 +234,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - [ ] Diagramas
   - [x] Diagrama da infraestrutura (Lucas)
   - [x] Modelagem Entidade-Relacionamento (Lucas)
-  - [ ] Storytelling (egon.io) (Carloto)
+  - [x] Storytelling (egon.io) (Carloto)
   - [x] Diagrama de sequência (Lucas)
   - [x] Diagrama de status (Lucas)
   - [x] Diagrama de fluxo com Endpoints (Lucas)
