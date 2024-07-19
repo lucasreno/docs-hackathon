@@ -208,7 +208,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [ ] Exclusão de horários (médico)
   - [x] Listagem de horários disponíveis (médico)
   - [x] Agendamento de consulta
-  - [ ] Reagendamento de consulta
+  - [x] Reagendamento de consulta
   - [ ] Cancelamento de consulta
   - [x] Histórico de consultas
 - Prontuário (Storage + Cassandra)
@@ -238,6 +238,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [x] Diagrama de sequência (Lucas)
   - [x] Diagrama de status (Lucas)
   - [x] Diagrama de fluxo com Endpoints (Lucas)
+  - [x] Diagrama padrão SAGA (Lucas)
     - [ ] Finalizar diagrama de fluxo com os endpoints que faltam desenvolver (Lucas)
   - [ ] Diagrama Clean Architecture ![Diagrama](https://private-user-images.githubusercontent.com/62509668/332299867-3b959abe-924c-424a-84b5-ab0b1dc11730.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwODk5MjUsIm5iZiI6MTcyMTA4OTYyNSwicGF0aCI6Ii82MjUwOTY2OC8zMzIyOTk4NjctM2I5NTlhYmUtOTI0Yy00MjRhLTg0YjUtYWIwYjFkYzExNzMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE2VDAwMjcwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjlmMDdlZjNjMGMwNjYyZmRiNzBmMzM1ZDVhMzNiNTBiY2Y1MmRiOWIxYjRhNjE5OWQwMmNhZDU5ZjhiZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sYbsPfZQ45PVCnXDCGkjdxKJs4mRZTe9nL0ds_Xm_bc)
 - [ ] LGPD
