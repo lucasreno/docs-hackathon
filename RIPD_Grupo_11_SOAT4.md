@@ -88,7 +88,7 @@ Os processos e procedimentos adotados para garantir a segurança e privacidade d
 
 | Coleta de Dados                           | Armazenamento de Dados  | Eliminação de Dados                               |
 |-------------------------------------------|-------------------------|---------------------------------------------------|
-| Através de formulários online preenchidos pelos médicos e pacientes | Em servidores na nuvem   | Após o término do contrato com o médico ou paciente |
+| Através de formulários online e aplicativo preenchidos pelos médicos e pacientes | Em servidores na nuvem   | Após o término do contrato com o médico ou paciente |
 
 ## 8. COMPARTILHAMENTO DE DADOS
 Os dados pessoais coletados na plataforma de telemedicina são compartilhados apenas com os médicos e pacientes envolvidos nas consultas, respeitando o consentimento do titular dos dados.
