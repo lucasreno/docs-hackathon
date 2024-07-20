@@ -102,19 +102,19 @@ Exercício dos Direitos dos Titulares: Através do aplicativo ou sistema web
 
 ## Aprovação
 **Responsável pela Elaboração do Relatório de Impacto**  
-Lucas Proença Renó
+Lucas Proença Renó  
 Matrícula/SIAPE: 00000  
-Londrina - PR, 20 de Julho de 2024
+Londrina - PR, 20 de Julho de 2024  
 
 **Encarregado**  
 Vinícius Carloto Carnelocce  
 Matrícula/SIAPE: 00001  
-Londrina - PR, 20 de Julho de 2024
+Londrina - PR, 20 de Julho de 2024  
 
 **Autoridade Representante do Controlador**  
 Matheus Augusto Leme Matiazzo  
 Matrícula/SIAPE: 00002  
-Londrina - PR, 20 de Julho de 2024
+Londrina - PR, 20 de Julho de 2024  
 
 **Autoridade Representante do Operador**  
 Alexandre Mikio Kimura Fukano  
