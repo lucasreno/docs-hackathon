@@ -241,9 +241,8 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
     - [ ] Finalizar diagrama de fluxo com os endpoints que faltam desenvolver (Lucas)
   - [x] Diagrama padrão SAGA (Lucas)
   - [x] Diagrama Clean Architecture (Lucas)
-- [ ] LGPD
-  - [ ] Documentar sobre LGPD
-  - [ ] Dados sensíveis (Saúde)
+- [x] LGPD (Lucas)
+  - [x] RIPD (Lucas)
 - [ ] Documentação
   - [ ] Registro corbertura de testes
   - [ ] Relatório SonarQube
