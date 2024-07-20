@@ -11,11 +11,9 @@ Este Relatório de Impacto à Proteção de Dados Pessoais (RIPD) tem como objet
 Referência: Art. 5º, XVII da Lei 13.709/2018 (LGPD).
 
 ## 1. IDENTIFICAÇÃO DOS AGENTES DE TRATAMENTO E DO ENCARREGADO
-**Controlador:** Matheus Augusto Leme Matiazzo  
-**Operador:** Alexandre Mikio Kimura Fukano  
-**Encarregado:** Vinícius Carloto Carnelocce  
-**E-mail Encarregado:** email@email.com  
-**Telefone Encarregado:** (99) 9999-9999  
+| Controlador          | Operador                       | Encarregado                            | E-mail Encarregado       | Telefone Encarregado |
+|----------------------|--------------------------------|----------------------------------------|--------------------------|----------------------|
+| Grupo 11 (SOAT 4)    | Grupo 11 (SOAT 4)              | Vinícius Carloto Carnelocce            | carloto@g11soat4.com     | N/A                  |
 
 ### 1.1 Necessidade de Elaborar o Relatório
 Este relatório é necessário:
