@@ -219,7 +219,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 ### Todo
 
-- [ ] Criar infraestrutura
+- [x] Criar infraestrutura
   - [ ] Adicionar Github Actions
 - [x] Criar microsserviços autenticação (Math)
   - [x] Adaptar cliente -> médico e paciente
