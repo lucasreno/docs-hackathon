@@ -233,7 +233,7 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [x] Implementar agendamento de consulta
   - [x] Implementar listagem de horários disponíveis
   - [x] Implementar listagem de consultas agendadas
-  - [ ] Implementar aceite/recusa de consulta
+  - [x] Implementar aceite/recusa de consulta
   - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [x] Diagramas
   - [x] Diagrama da infraestrutura (Lucas)
