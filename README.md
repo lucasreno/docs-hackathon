@@ -235,14 +235,14 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [x] Implementar listagem de consultas agendadas
   - [ ] Implementar aceite/recusa de consulta
   - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
-- [ ] Diagramas
+- [x] Diagramas
   - [x] Diagrama da infraestrutura (Lucas)
   - [x] Modelagem Entidade-Relacionamento (Lucas)
   - [x] Storytelling (egon.io) (Carloto)
   - [x] Diagrama de sequência (Lucas)
   - [x] Diagrama de status (Lucas)
   - [x] Diagrama de fluxo com Endpoints (Lucas)
-    - [ ] Finalizar diagrama de fluxo com os endpoints que faltam desenvolver (Lucas)
+    - [x] Finalizar diagrama de fluxo com os endpoints que faltam desenvolver (Lucas)
   - [x] Diagrama padrão SAGA (Lucas)
   - [x] Diagrama Clean Architecture (Lucas)
 - [x] LGPD (Lucas)
