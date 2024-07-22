@@ -113,39 +113,39 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 #### Paciente agenda consulta
 
-![Paciente agenda consulta_2024-07-16](/domain-storytelling/Paciente%20agenda%20consulta_2024-07-16.png)
+![Paciente agenda consulta_2024-07-16](/domain-storytelling/Paciente%20agenda%20consulta_2024-07-22.egn.svg)
 
 #### Médico acessa prontuário
 
-![Médico acessa prontuário_2024-07-16](/domain-storytelling//Médico%20acessa%20prontuário_2024-07-16.png)
+![Médico acessa prontuário_2024-07-16](/domain-storytelling/Médico%20acessa%20prontuário_2024-07-22.egn.svg)
 
 #### Médico gerencia agenda
 
-![Médico gerencia agenda_2024-07-16](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-16.png)
+![Médico gerencia agenda_2024-07-16](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-22.egn.svg)
 
 #### Paciente visualiza histórico de consultas
 
-![Paciente visualiza histórico de consultas_2024-07-16](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-16.png)
+![Paciente visualiza histórico de consultas_2024-07-16](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-22.egn.svg)
 
 #### Paciente autoriza acesso a prontuário
 
-![Paciente autoriza acesso a prontuário_2024-07-17](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-17.png)
+![Paciente autoriza acesso a prontuário_2024-07-17](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-22.egn.svg)
 
 #### Reagendamento de consulta pelo paciente
 
-![Reagendamento de consulta pelo paciente_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-17.png)
+![Reagendamento de consulta pelo paciente_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
 
 #### Reagendamento de consulta pelo médico
 
-![Reagendamento de consulta pelo médico_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-17.png)
+![Reagendamento de consulta pelo médico_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
 
 #### Cancelamento de consulta pelo paciente
 
-![Cancelamento de consulta pelo paciente](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-17.png)
+![Cancelamento de consulta pelo paciente](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
 
 #### Cancelamento de consulta pelo médico
 
-![Cancelamento de consulta pelo médico_2024-07-17](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-17.egn)
+![Cancelamento de consulta pelo médico_2024-07-17](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
 
 ### Diagramas
 
