@@ -157,6 +157,10 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 
 #### 4. [Diagrama de fluxo](diagrama-fluxo-endpoints.md)
 
+### LGPD
+
+#### 1. [Relatório de Impacto à Proteção de Dados](RIPD_Grupo_11_SOAT4.md)
+
 ### Infraestrutura
 
 #### AWS
