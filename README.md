@@ -209,11 +209,11 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
   - [x] Cadastro de usuário
 - Consulta (Postgres + Redis(Cache))
   - [x] Cadastro de horários (médico)
-  - [ ] Exclusão de horários (médico)
+  - [x] Exclusão de horários (médico)
   - [x] Listagem de horários disponíveis (médico)
   - [x] Agendamento de consulta
   - [x] Reagendamento de consulta
-  - [ ] Cancelamento de consulta
+  - [x] Cancelamento de consulta
   - [x] Histórico de consultas
 - Prontuário (Storage + Cassandra)
   - Documentos (Exames, Laudos)
@@ -224,17 +224,17 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 ### Todo
 
 - [x] Criar infraestrutura
-  - [ ] Adicionar Github Actions
+  - [x] Adicionar Github Actions
 - [x] Criar microsserviços autenticação (Math)
   - [x] Adaptar cliente -> médico e paciente
-- [ ] Criar microsserviços consulta (Math + Ale)
+- [x] Criar microsserviços consulta (Math + Ale)
   - [x] Modelar banco de dados
   - [x] Implementar CRUD de horários
   - [x] Implementar agendamento de consulta
   - [x] Implementar listagem de horários disponíveis
   - [x] Implementar listagem de consultas agendadas
   - [x] Implementar aceite/recusa de consulta
-  - [ ] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
+  - [x] Testes de estresse (sistema deve suportar 20.000 usuários simultâneos)
 - [x] Diagramas
   - [x] Diagrama da infraestrutura (Lucas)
   - [x] Modelagem Entidade-Relacionamento (Lucas)
@@ -248,11 +248,11 @@ Os estudos tem base em uma inovadora startup de telemedicina, que torna possíve
 - [x] LGPD (Lucas)
   - [x] RIPD (Lucas)
 - [ ] Documentação
-  - [ ] Registro corbertura de testes
+  - [ ] Registro corbertura de testes (auten > mat e cons > ale)
   - [ ] Relatório SonarQube
-  - [ ] Relatório OWASP ZAP
+  - [x] Relatório OWASP ZAP
   - [ ] Saga coreografada
-- [ ] Fechar todas as branches
+- [x] Fechar todas as branches
 
 ### Ideias
 
