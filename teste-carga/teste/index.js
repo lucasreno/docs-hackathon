@@ -69,12 +69,6 @@ export default () => {
         sleep(1);
     });
 
-    stages: [
-        { duration: "30s", target: 10 },
-        { duration: "1m", target: 20 },
-        { duration: "30s", target: 0 }
-    ];
-
     function generateRandomCPF() {
         const rand = (min, max) => Math.floor(Math.random() * (max - min) + min);
         let cpf = Array.from({ length: 9 }, () => rand(0, 9));
