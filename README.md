@@ -42,6 +42,7 @@ Os estudos baseiam-se em uma startup de telemedicina, que viabiliza a realizaç�
 
 ## Domain Driven Design
 A partir do problema proposto, foi realizada uma análise do domínio do negócio, identificando os principais subdomínios e a linguagem ubíqua. Com base nessa análise, foram elaborados os fluxos de eventos e os domain storytelling, que serviram de base para a criação dos diagramas de modelagem, bem como outros diagramas que auxiliam na compreensão do sistema.
+
 [Documentação completa (leia mais...)](/ddd/README.md)
 
 ## Diagramas
