@@ -40,7 +40,7 @@ A quantidade de VUs (Virtual Users) teve um crescimento linear e relativamente c
 
 - [Passo a passo para execução do teste de carga](/teste-carga/README.md)
 - [Script de teste - Sobrecarga](/teste-carga/scripts/get.js)
-- [Script de teste - Simulação usuários](/teste-carga/scripts/index.js)
+- [Script de teste - Simulação usuários](/teste-carga/scripts/user.js)
 - [Resultados completos](/teste-carga/resultado/screencapture-localhost-3000-d-58AyB-XSk-k6-load-testing-results-2024-07-23-20_04_13.png)
 - [Dashboard Grafana (json)](/teste-carga/resultado/k6%20Load%20Testing%20Results-1721775826139.json)
 - [Logs do teste](/teste-carga/resultado/output-console.log)
