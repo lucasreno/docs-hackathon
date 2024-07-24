@@ -154,9 +154,6 @@ Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviço
 
 
 ## To-Do
-  - [ ] Revisar diagrama de sequência
-  - [x] Documentar repositório de infraestrutura
-  - [ ] Documentar repositórios dos microsserviços
   - [ ] Testes unitários
   - [ ] SonarQube
   - [ ] CloudWatch
