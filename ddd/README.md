@@ -101,15 +101,15 @@ Os contextos delimitados são limites lógicos que separam diferentes partes do 
 
 A técnica de Domain Storytelling é uma forma de contar histórias sobre o domínio do negócio, ajudando a entender as interações entre os diferentes atores e processos envolvidos. Durante o desenvolvimento do projeto, utilizamos essa técnica para criar diagramas que representam as principais interações entre pacientes, médicos e o sistema de agendamento de consultas.
 
-![Paciente agenda consulta](/domain-storytelling/Paciente%20agenda%20consulta_2024-07-22.egn.svg)
-![Médico acessa prontuário](/domain-storytelling/Médico%20acessa%20prontuário_2024-07-22.egn.svg)
-![Médico gerencia agenda](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-22.egn.svg)
-![Paciente visualiza histórico de consultas](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-22.egn.svg)
-![Paciente autoriza acesso a prontuário](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-22.egn.svg)
-![Reagendamento de consulta pelo paciente](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
-![Reagendamento de consulta pelo médico](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
-![Cancelamento de consulta pelo paciente](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
-![Cancelamento de consulta pelo médico](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
+![Paciente agenda consulta](/ddd/domain-storytelling/Paciente%20agenda%20consulta_2024-07-22.egn.svg)
+![Médico acessa prontuário](/ddd/domain-storytelling/Médico%20acessa%20prontuário_2024-07-22.egn.svg)
+![Médico gerencia agenda](/ddd/domain-storytelling/Médico%20gerencia%20agenda_2024-07-22.egn.svg)
+![Paciente visualiza histórico de consultas](/ddd/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-22.egn.svg)
+![Paciente autoriza acesso a prontuário](/ddd/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-22.egn.svg)
+![Reagendamento de consulta pelo paciente](/ddd/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
+![Reagendamento de consulta pelo médico](/ddd/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
+![Cancelamento de consulta pelo paciente](/ddd/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
+![Cancelamento de consulta pelo médico](/ddd/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
 
 ### Event Storming
 

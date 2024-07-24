@@ -7,11 +7,20 @@
 - Vinicius Carloto Carnelocce - **RM 351126** (viniciuscarloto@gmail.com)
 
 ---
-[![Hackathon 2024](https://img.shields.io/badge/Hackathon-2024-blue)](/assets/hackathon-soat.pdf)
+### Links úteis
+[![Hackathon 2024](https://img.shields.io/badge/Hackathon%20(.pdf)-2024-blue?logo=readthedocs)](/assets/hackathon-soat.pdf)
+[![Documentação](https://img.shields.io/badge/Documentação%20Projeto-044464?logo=github)](https://github.com/lucasreno/docs-hackathon/)
+<br>
+[![Infraestrutura](https://img.shields.io/badge/Infraestrutura-gray?logo=github)](https://github.com/MMatiazzo/infra-hackathon)
+[![Microsserviço-Autenticacao](https://img.shields.io/badge/Microsserviço%20Autenticação-gray?logo=github)](https://github.com/MMatiazzo/autenticacao)
+[![Microsserviço-Consulta](https://img.shields.io/badge/Microsserviço%20Consulta-gray?logo=github)](https://github.com/MMatiazzo/consulta)
 
 ## Sumário
 1. [Identificação do problema](#identificação-do-problema)
 2. [Domain Driven Design](#domain-driven-design)
+3. [Diagramas](#diagramas)
+    - [Modelo entidade-relacionamento](#1-modelo-entidade-relacionamento)
+
 
 
 ## Identificação do problema
@@ -22,17 +31,19 @@ Os estudos baseiam-se em uma startup de telemedicina, que viabiliza a realizaç�
 
 A partir do problema proposto, foi realizada uma análise do domínio do negócio, identificando os principais subdomínios e a linguagem ubíqua. Com base nessa análise, foram elaborados os fluxos de eventos e os domain storytelling, que serviram de base para a criação dos diagramas de modelagem, bem como outros diagramas que auxiliam na compreensão do sistema.
 
-[Documentação DDD](/ddd/README.md)
+[Documentação completa (leia mais...)](/ddd/README.md)
 
 
 ### Diagramas
 
+Após a análise do domínio, iniciamos a modelagem do sistema, criando os diagramas que representam a estrutura e o comportamento do sistema. Os diagramas foram elaborados com o intuito de facilitar a compreensão do sistema e auxiliar no desenvolvimento dos microsserviços.
+
 #### 1. [Modelo entidade-relacionamento](modelo-entidade-relacionamento.md)
 
+Este diagrama representa as entidades e seus relacionamentos, bem como os atributos de cada entidade. Ele ainda não está dividido por microsserviços, pois foi criado com o intuito de representar o sistema como um todo.
+
 #### 2. [Diagramas de sequência](diagramas-sequencia.md)
-
 #### 3. [Diagrama de status](diagrama-status.md)
-
 #### 4. [Diagrama de fluxo](diagrama-fluxo-endpoints.md)
 
 ### LGPD
