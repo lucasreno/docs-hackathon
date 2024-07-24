@@ -31,6 +31,7 @@
 6. [Controle de Qualidade](#controle-de-qualidade)
     - [Testes unitários](#testes-unitários)
     - [Testes de carga](#testes-de-carga)
+    - [SonarQube](#sonarqube)
     - [Relatório OWASP ZAP](#relatório-owasp-zap)
 7. [LGPD](#lgpd)
     - [Relatório de Impacto à Proteção de Dados](#relatório-de-impacto-à-proteção-de-dados)
