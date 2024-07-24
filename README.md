@@ -44,7 +44,7 @@ Os estudos baseiam-se em uma startup de telemedicina, que viabiliza a realizaç�
 A partir do problema proposto, foi realizada uma análise do domínio do negócio, identificando os principais subdomínios e a linguagem ubíqua. Com base nessa análise, foram elaborados os fluxos de eventos e os domain storytelling, que serviram de base para a criação dos diagramas de modelagem, bem como outros diagramas que auxiliam na compreensão do sistema.
 [Documentação completa (leia mais...)](/ddd/README.md)
 
-### Diagramas
+## Diagramas
 
 Após a análise do domínio, iniciamos a modelagem do sistema, criando os diagramas que representam a estrutura e o comportamento do sistema. Os diagramas foram elaborados com o intuito de facilitar a compreensão do sistema e auxiliar no desenvolvimento dos microsserviços.
 Para visualizar os diagramas, clique nos links abaixo.
@@ -61,7 +61,7 @@ O diagrama de status representa o ciclo de vida de uma consulta.
 #### 4. [Diagrama de fluxo](diagramas/fluxo-endpoints.md)
 O diagrama de fluxo representa o fluxo de execução do sistema, mostrando os endpoints e as ações realizadas por cada um deles.
 
-### Infraestrutura
+## Infraestrutura
 A infraestrutura foi modelada utilizando o Terraform, que permite a criação de infraestrutura como código. A infraestrutura foi dividida em módulos, que representam os recursos necessários para a execução dos microsserviços. A cloud escolhida foi a AWS, que oferece uma série de serviços que atendem às necessidades do sistema. Para automatizar o deploy da infraestrutura, foi utilizado o Github Actions, que executa o Terraform e faz o deploy dos recursos na AWS.
 
 _Mais informações podem ser encontradas no repositório da infraestrutura_
@@ -70,7 +70,7 @@ _Mais informações podem ser encontradas no repositório da infraestrutura_
   ![Arquitetura](arquitetura/hackathon-infra.drawio.png)
 
 
-### Microsserviços
+## Microsserviços
 Os microsserviços foram desenvolvidos utilizando o TypeScript, utilizando o NestJS, que é um framework para Node.js. Todos os microsserviços foram containerizados com o Docker e possuem workflows de CI/CD no Github Actions para automatizar o deploy. De acordo com a delimitação de contexto, foram criados quatro microsserviços: **autenticação, consulta, prontuário e notificação**.
 
 _Mais informações podem ser encontradas nos repositórios dos microsserviços_
@@ -85,49 +85,49 @@ _Mais informações podem ser encontradas nos repositórios dos microsserviços_
 
 _**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
 
-### Controle de Qualidade
+## Controle de Qualidade
 Buscamos garantir a qualidade do código e a segurança do sistema, aplicando boas práticas de desenvolvimento. 
 
-#### Testes unitários
-(...) falar sobre os testes unitários e a cobertura de testes
+- ### Testes unitários
+  (...) falar sobre os testes unitários e a cobertura de testes
 
-#### Testes de carga
-O teste de carga realizado com a ferramenta K6 simulou 1.000 usuários simultâneos, gerando 13.624 requisições em 53.4 segundos, com uma taxa de sucesso de 95,06% e tempo médio de resposta de 1.89 segundos. Limitações de hardware e recursos impactaram tanto no número de usuários simulados quanto na capacidade de resposta do microsserviço.
+- ### Testes de carga
+  O teste de carga realizado com a ferramenta K6 simulou 1.000 usuários simultâneos, gerando 13.624 requisições em 53.4 segundos, com uma taxa de sucesso de 95,06% e tempo médio de resposta de 1.89 segundos. Limitações de hardware e recursos impactaram tanto no número de usuários simulados quanto na capacidade de resposta do microsserviço.
 
 [Documentação completa (leia mais...)](/teste-carga/resultado.md)
 
-#### SonarQube
-O SonarQube é uma ferramenta de análise estática de código que identifica problemas de qualidade e segurança no código-fonte. O SonarQube foi utilizado para analisar a qualidade do código dos microsserviços, identificando possíveis vulnerabilidades e problemas de código.
+- ### SonarQube
+  O SonarQube é uma ferramenta de análise estática de código que identifica problemas de qualidade e segurança no código-fonte. O SonarQube foi utilizado para analisar a qualidade do código dos microsserviços, identificando possíveis vulnerabilidades e problemas de código.
 
-#### Relatório OWASP ZAP
-O relatório do OWASP ZAP é uma ferramenta de segurança que identifica vulnerabilidades em aplicações web. O relatório foi gerado antes e depois da remediação das vulnerabilidades, com o intuito de avaliar a segurança do sistema.
+- ### Relatório OWASP ZAP
+  O relatório do OWASP ZAP é uma ferramenta de segurança que identifica vulnerabilidades em aplicações web. O relatório foi gerado antes e depois da remediação das vulnerabilidades, com o intuito de avaliar a segurança do sistema.
 
-[Relatório completo antes (leia mais...)](/owasp/antes/2024-07-23-ZAP-Report-.html)
+  [Relatório completo antes (leia mais...)](/owasp/antes/2024-07-23-ZAP-Report-.html)
   
   [Relatório completo depois (leia mais...)](/owasp/depois/2024-07-23-ZAP-Report-.html)
 
-- #### Comparativo de Alertas OWASP ZAP
-  | Tipo de Alerta                                     | Antes da Remediação          | Depois da Remediação         |
-  |----------------------------------------------------|------------------------------|------------------------------|
-  | Vazamento de informações no cabeçalho "X-Powered-By"| 10 alertas (Risco Baixo)     | 0                            |
-  | Cabeçalho X-Content-Type-Options ausente          | 9 alertas (Risco Baixo)      | 0                            |
-  | Resposta de Gestão de Sessão Identificada         | 4 alertas (Risco Informativo)| 4 alertas (Risco Informativo)|
-  | **Total de Alertas**                              | **3 tipos de alerta identificados** | **1 tipo de alerta identificado** |
+  - #### Comparativo de Alertas OWASP ZAP
+    | Tipo de Alerta                                     | Antes da Remediação          | Depois da Remediação         |
+    |----------------------------------------------------|------------------------------|------------------------------|
+    | Vazamento de informações no cabeçalho "X-Powered-By"| 10 alertas (Risco Baixo)     | 0                            |
+    | Cabeçalho X-Content-Type-Options ausente          | 9 alertas (Risco Baixo)      | 0                            |
+    | Resposta de Gestão de Sessão Identificada         | 4 alertas (Risco Informativo)| 4 alertas (Risco Informativo)|
+    | **Total de Alertas**                              | **3 tipos de alerta identificados** | **1 tipo de alerta identificado** |
 
-- #### Contagem de Alertas por Risco e Confiança
+  - #### Contagem de Alertas por Risco e Confiança
 
-  | Risco       | Antes da Remediação | Depois da Remediação |
-  |-------------|---------------------|----------------------|
-  | Alto        | 0                   | 0                    |
-  | Médio       | 0                   | 0                    |
-  | Baixo       | 19                  | 0                    |
-  | Informativo | 4                   | 4                    |
+    | Risco       | Antes da Remediação | Depois da Remediação |
+    |-------------|---------------------|----------------------|
+    | Alto        | 0                   | 0                    |
+    | Médio       | 0                   | 0                    |
+    | Baixo       | 19                  | 0                    |
+    | Informativo | 4                   | 4                    |
 
 
-- #### Conclusão do Relatório OWASP ZAP
-  Após a remediação, o número total de alertas reduziu-se significativamente. Antes da remediação, foram identificados vários alertas de risco Baixo e informativos. Após as ações corretivas, apenas alertas informativos permanecem, indicando uma melhoria na segurança do sistema.
+  - #### Conclusão do Relatório OWASP ZAP
+    Após a remediação, o número total de alertas reduziu-se significativamente. Antes da remediação, foram identificados vários alertas de risco Baixo e informativos. Após as ações corretivas, apenas alertas informativos permanecem, indicando uma melhoria na segurança do sistema.
 
-### LGPD
+## LGPD
 A Lei Geral de Proteção de Dados (LGPD) é uma legislação que estabelece regras para a coleta, armazenamento, tratamento e compartilhamento de dados pessoais. O sistema foi desenvolvido de acordo com os princípios da LGPD, garantindo a privacidade e a segurança dos dados dos usuários.
 
 #### Relatório de Impacto à Proteção de Dados
@@ -135,24 +135,24 @@ O Relatório de Impacto à Proteção de Dados (RIPD) é um documento que descre
 
 [Documentação completa (leia mais...)](lgpd-ripd/README.md)
 
-### MVP
+## MVP
 Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviços de autenticação e consulta, que são essenciais para o funcionamento do sistema. O microsserviço de autenticação é responsável por autenticar os usuários e gerar tokens de acesso, enquanto o microsserviço de consulta é responsável por gerenciar as consultas médicas.
 
-#### Requisitos
-- [x] RF-1 Autenticação de usuários (Médico)
-- [x] RF-2 Cadastro/edição de horários disponíveis (Médico)
-- [x] RF-3 Aceite ou Recusa de consultas (Médico)
-- [x] RF-4 Autenticação de usuários (Paciente)
-- [x] RF-5 Busca por médicos disponíveis (Paciente)
-- [x] RF-6 Agendamento de consultas (Paciente)
-- [ ] RF-7 Teleconsulta
-- [ ] RF-8 Prontuário eletrônico (upload e gestão de compartilhamento)
-- [x] RNF-1 Alta disponibilidade
-- [x] RNF-2 Escalabilidade
-- [x] RNF-3 Segurança
+- #### Requisitos
+  - [x] RF-1 Autenticação de usuários (Médico)
+  - [x] RF-2 Cadastro/edição de horários disponíveis (Médico)
+  - [x] RF-3 Aceite ou Recusa de consultas (Médico)
+  - [x] RF-4 Autenticação de usuários (Paciente)
+  - [x] RF-5 Busca por médicos disponíveis (Paciente)
+  - [x] RF-6 Agendamento de consultas (Paciente)
+  - [ ] RF-7 Teleconsulta
+  - [ ] RF-8 Prontuário eletrônico (upload e gestão de compartilhamento)
+  - [x] RNF-1 Alta disponibilidade
+  - [x] RNF-2 Escalabilidade
+  - [x] RNF-3 Segurança
 
 
-### To-Do
+## To-Do
   - [ ] Revisar diagrama de sequência
   - [ ] Documentar repositório de infraestrutura
   - [ ] Documentar repositórios dos microsserviços
