@@ -32,31 +32,24 @@ Este documento demonstra o processo de Domain-Driven Design (DDD) aplicado ao pr
 Procuramos identificar domínios do negócio, a fim de compreender melhor o problema e criar um design de software que reflita esse domínio. Nesse caso, abordamos em três categorias: domínios principais, domínios de suporte e domínios genéricos.
 
 - ### Subdomínios principais
-
-São áreas críticas e estratégicas do negócio, onde a empresa cria seu maior diferencial competitivo
-
+  São áreas críticas e estratégicas do negócio, onde a empresa cria seu maior diferencial competitivo
     - Paciente
     - Médico
     - Consulta
     - Prontuário
 
 - ### Subdomínios de suporte
-
-Auxiliam os domínios principais, mas não são o foco principal do negócio
-
+  Auxiliam os domínios principais, mas não são o foco principal do negócio
     - Agenda
     - Aceite de consulta
 
 - ### Subdomínios genéricos
-
-São áreas comuns a muitos sistemas, que não são específicas do negócio em questão
-
+  São áreas comuns a muitos sistemas, que não são específicas do negócio em questão
     - Autenticação
     - Notificação
     - Storage
 
 ## Linguagem Ubíqua
-
     Saúde: área de atuação relacionada ao bem-estar físico e mental
     Telemedicina: prática de medicina à distância
     Paciente: pessoa que busca atendimento médico
@@ -73,29 +66,28 @@ São áreas comuns a muitos sistemas, que não são específicas do negócio em 
     Storage: armazenamento de dados
 
 ## Contextos Delimitados (Bounded Contexts)
-
 Os contextos delimitados são limites lógicos que separam diferentes partes do domínio, permitindo que cada parte seja tratada de forma independente. Cada contexto delimitado possui seu próprio modelo de domínio, linguagem ubíqua e regras de negócio.
 
 
-### Contexto de autenticação
-- **Responsabilidade**: Gerenciar a autenticação e autorização de usuários no sistema (médicos e pacientes).
-- **Fronteiras**: Este contexto inclui todas as funcionalidades relacionadas ao login e controle de acesso, bem como a gestão de sessões dos usuários.
-- **Interações**: Interage com o Contexto de Agendamento e o Contexto de Prontuário Eletrônico para garantir que apenas usuários autenticados possam acessar essas funcionalidades.
+- ### Contexto de autenticação
+  - **Responsabilidade**: Gerenciar a autenticação e autorização de usuários no sistema (médicos e pacientes).
+  - **Fronteiras**: Este contexto inclui todas as funcionalidades relacionadas ao login e controle de acesso, bem como a gestão de sessões dos usuários.
+  - **Interações**: Interage com o Contexto de Agendamento e o Contexto de Prontuário Eletrônico para garantir que apenas usuários autenticados possam acessar essas funcionalidades.
 
-### Contexto de Agendamento
-- **Responsabilidade**: Gerenciar o agendamento, edição e cancelamento de consultas médicas.
-- **Fronteiras**: Inclui funcionalidades para médicos (cadastro/edição de horários, aceitação/recusa de consultas) e para pacientes (busca de médicos, visualização de agenda, agendamento e cancelamento de consultas).
-- **Interações**: Interage com o Contexto de Autenticação para validar o acesso do usuário.
+- ### Contexto de Agendamento
+  - **Responsabilidade**: Gerenciar o agendamento, edição e cancelamento de consultas médicas.
+  - **Fronteiras**: Inclui funcionalidades para médicos (cadastro/edição de horários, aceitação/recusa de consultas) e para pacientes (busca de médicos, visualização de agenda, agendamento e cancelamento de consultas).
+  - **Interações**: Interage com o Contexto de Autenticação para validar o acesso do usuário.
 
-### Contexto de Prontuário Eletrônico
-- **Responsabilidade**: Gerenciar o prontuário eletrônico dos pacientes, incluindo o armazenamento e compartilhamento de documentos médicos.
-- **Fronteiras**: Inclui funcionalidades de upload de documentos, gestão de compartilhamento e acesso a registros médicos.
-- **Interações**: Interage com o Contexto de Autenticação para garantir que apenas usuários autorizados acessem os prontuários.
+- ### Contexto de Prontuário Eletrônico
+  - **Responsabilidade**: Gerenciar o prontuário eletrônico dos pacientes, incluindo o armazenamento e compartilhamento de documentos médicos.
+  - **Fronteiras**: Inclui funcionalidades de upload de documentos, gestão de compartilhamento e acesso a registros médicos.
+  - **Interações**: Interage com o Contexto de Autenticação para garantir que apenas usuários autorizados acessem os prontuários.
 
-### Contexto de Notificação
-- **Responsabilidade**: Gerenciar o envio de notificações para médicos e pacientes sobre eventos relevantes no sistema.
-- **Fronteiras**: Inclui funcionalidades para envio de mensagens de confirmação de agendamento, lembretes de consulta, notificações de compartilhamento de prontuário, etc.
-- **Interações**: Interage com os outros contextos para enviar notificações em momentos específicos.
+- ### Contexto de Notificação
+  - **Responsabilidade**: Gerenciar o envio de notificações para médicos e pacientes sobre eventos relevantes no sistema.
+  - **Fronteiras**: Inclui funcionalidades para envio de mensagens de confirmação de agendamento, lembretes de consulta, notificações de compartilhamento de prontuário, etc.
+  - **Interações**: Interage com os outros contextos para enviar notificações em momentos específicos.
 
 ## Domain Storytelling
 
@@ -111,11 +103,11 @@ A técnica de Domain Storytelling é uma forma de contar histórias sobre o dom�
 ![Cancelamento de consulta pelo paciente](/ddd/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
 ![Cancelamento de consulta pelo médico](/ddd/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
 
-### Event Storming
+## Event Storming
 
 O Event Storming é uma técnica de modelagem colaborativa que permite visualizar os eventos e processos de um sistema de forma rápida e eficaz. Durante o desenvolvimento do projeto, realizamos sessões de Event Storming para mapear os eventos e fluxos de cada contexto delimitado, identificando as interações entre eles e refinando o design do sistema. Ao invés da técnica tradicional utilizando post-its ou miro, utilizamos o próprio repositório do GitHub para documentar os eventos.
 
-#### a. Paciente agenda consulta
+- #### a. Paciente agenda consulta
   1. Paciente acessa o sistema
   2. Paciente seleciona especialidade
   3. Paciente seleciona médico
@@ -124,46 +116,46 @@ O Event Storming é uma técnica de modelagem colaborativa que permite visualiza
   6. Sistema envia notificação para médico
   7. Médico aceita/recusa consulta
   8. Sistema envia notificação para paciente
-#### b. Médico acessa prontuário
+- #### b. Médico acessa prontuário
   1. Médico acessa o sistema
   2. Médico seleciona paciente
   3. Médico visualiza prontuário que paciente autorizou
-#### c. Médico gerencia agenda
+- #### c. Médico gerencia agenda
   1. Médico acessa o sistema
   2. Médico visualiza agenda
   3. Médico cadastra/altera horários disponíveis
-#### d. Paciente visualiza histórico de consultas
+- #### d. Paciente visualiza histórico de consultas
   1. Paciente acessa o sistema
   2. Paciente visualiza histórico de consultas
-#### e. Paciente autoriza acesso a prontuário
+- #### e. Paciente autoriza acesso a prontuário
   1. Paciente acessa o sistema
   2. Paciente escolhe os documentos que deseja compartilhar
   3. Paciente escolhe médico
   4. Paciente autoriza acesso
   5. Sistema envia notificação para médico
   6. Médico acessa prontuário
-#### f. Reagendamento de consulta pelo paciente
+- #### f. Reagendamento de consulta pelo paciente
   1. Paciente acessa o sistema
   2. Paciente visualiza consultas agendadas
   3. Paciente solicita reagendamento
   4. Sistema envia notificação para médico
   5. Médico aceita/recusa reagendamento
   6. Sistema envia notificação para paciente
-#### g. Reagendamento de consulta pelo médico
+- #### g. Reagendamento de consulta pelo médico
   1. Médico acessa o sistema
   2. Médico visualiza consultas agendadas
   3. Médico solicita reagendamento
   4. Sistema envia notificação para paciente
   5. Paciente aceita/cancela reagendamento
   6. Sistema envia notificação para médico
-#### h. Cancelamento de consulta pelo paciente
+- #### h. Cancelamento de consulta pelo paciente
   1. Paciente acessa o sistema
   2. Paciente visualiza consultas agendadas
   3. Paciente solicita cancelamento
   4. Verificação se é possível cancelar a consulta
      - Regra: consulta pode ser cancelada até 24h antes do horário marcado
   5. Sistema envia notificação para médico
-#### i. Cancelamento de consulta pelo médico
+- #### i. Cancelamento de consulta pelo médico
   1. Médico acessa o sistema
   2. Médico visualiza consultas agendadas
   3. Médico solicita cancelamento
