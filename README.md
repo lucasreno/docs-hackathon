@@ -83,7 +83,7 @@ _Mais informações podem ser encontradas nos repositórios dos microsserviços_
   O padrão SAGA coreografado foi utilizado para garantir a consistência entre os microsserviços. O SAGA coreografado é um padrão de design de software que permite coordenar transações distribuídas entre vários microsserviços. Ele é composto por eventos que são disparados pelos microsserviços e que são consumidos por outros microsserviços para realizar ações. Segue abaixo a representação do padrão SAGA implementado nos microsserviços:
   ![SAGA](arquitetura/hackathon-SAGA.drawio.png)
 
-_**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
+  _**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
 
 ## Controle de Qualidade
 Buscamos garantir a qualidade do código e a segurança do sistema, aplicando boas práticas de desenvolvimento. 
@@ -130,10 +130,10 @@ Buscamos garantir a qualidade do código e a segurança do sistema, aplicando bo
 ## LGPD
 A Lei Geral de Proteção de Dados (LGPD) é uma legislação que estabelece regras para a coleta, armazenamento, tratamento e compartilhamento de dados pessoais. O sistema foi desenvolvido de acordo com os princípios da LGPD, garantindo a privacidade e a segurança dos dados dos usuários.
 
-#### Relatório de Impacto à Proteção de Dados
-O Relatório de Impacto à Proteção de Dados (RIPD) é um documento que descreve as medidas adotadas para proteger os dados pessoais dos usuários. O RIPD foi elaborado com base na análise de riscos e nas medidas de segurança adotadas para mitigar esses riscos.
+- #### Relatório de Impacto à Proteção de Dados
+  O Relatório de Impacto à Proteção de Dados (RIPD) é um documento que descreve as medidas adotadas para proteger os dados pessoais dos usuários. O RIPD foi elaborado com base na análise de riscos e nas medidas de segurança adotadas para mitigar esses riscos.
 
-[Documentação completa (leia mais...)](lgpd-ripd/README.md)
+  [Documentação completa (leia mais...)](lgpd-ripd/README.md)
 
 ## MVP
 Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviços de autenticação e consulta, que são essenciais para o funcionamento do sistema. O microsserviço de autenticação é responsável por autenticar os usuários e gerar tokens de acesso, enquanto o microsserviço de consulta é responsável por gerenciar as consultas médicas.
