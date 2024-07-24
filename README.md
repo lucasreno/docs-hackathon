@@ -155,8 +155,15 @@ Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviço
 
 ## To-Do
   - [ ] Revisar diagrama de sequência
-  - [ ] Documentar repositório de infraestrutura
+  - [x] Documentar repositório de infraestrutura
   - [ ] Documentar repositórios dos microsserviços
   - [ ] Testes unitários
   - [ ] SonarQube
   - [ ] CloudWatch
+
+---
+
+[![github@AlexandreKimura](https://img.shields.io/badge/@AlexandreKimura-000?logo=github&logoColor=white)](https://github.com/AlexandreKimura)
+[![github@lucasreno](https://img.shields.io/badge/@LucasReno-000?logo=github&logoColor=white)](https://github.com/lucasreno)
+[![github@MMatiazzo](https://img.shields.io/badge/@MMatiazzo-000?logo=github&logoColor=white)](https://github.com/MMatiazzo)
+[![github@Carloto](https://img.shields.io/badge/@Carloto-000?logo=github&logoColor=white)](https://github.com/Carloto)
