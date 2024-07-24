@@ -84,8 +84,6 @@ _Mais informações podem ser encontradas nos repositórios dos microsserviços_
   O padrão SAGA coreografado foi utilizado para garantir a consistência entre os microsserviços. O SAGA coreografado é um padrão de design de software que permite coordenar transações distribuídas entre vários microsserviços. Ele é composto por eventos que são disparados pelos microsserviços e que são consumidos por outros microsserviços para realizar ações. Segue abaixo a representação do padrão SAGA implementado nos microsserviços:
   ![SAGA](arquitetura/hackathon-SAGA.drawio.png)
 
-  _**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
-
 ## Controle de Qualidade
 Buscamos garantir a qualidade do código e a segurança do sistema, aplicando boas práticas de desenvolvimento. 
 
@@ -151,6 +149,8 @@ Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviço
   - [x] RNF-1 Alta disponibilidade
   - [x] RNF-2 Escalabilidade
   - [x] RNF-3 Segurança
+
+  _**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
 
 
 ## To-Do
