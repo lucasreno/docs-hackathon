@@ -23,7 +23,7 @@ docker-compose up -d
 2. Executar o teste de carga:
 
 ```bash
-docker-compose run k6 run /scripts/index.js
+docker-compose run k6 run /scripts/get.js
 ```
 
 3. Acessar o Grafana:

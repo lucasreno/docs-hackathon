@@ -119,7 +119,6 @@ export default () => {
         return `${year}-${month < 10 ? "0" + month : month}-${day < 10 ? "0" + day : day}T${hour < 10 ? "0" + hour : hour}:00:00Z`;
     }
 
-
     function headOrTail() {
         return Math.random() >= 0.5;
     }
