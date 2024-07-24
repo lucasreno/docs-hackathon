@@ -1,151 +1,29 @@
-# FIAP - Hackathon 2024 - SOAT4 - Grupo 11
+<p align="center"><img src="assets/logo.png" alt="Health&Med"/></p>
 
-## Health&Med👨‍⚕️
+### FIAP - Hackathon 2024 - SOAT4 - Grupo 11 
+- Alexandre Mikio Kimura Fukano - **RM 351127** (alexandremkimura@hotmail.com)
+- Lucas Proença Renó - **RM 351351** (lucasreno9@gmail.com)
+- Matheus Agusuto Leme Matiazzo - **RM 351128** (mathmatiazzo@gmail.com)
+- Vinicius Carloto Carnelocce - **RM 351126** (viniciuscarloto@gmail.com)
 
-### Requisitos
+---
+[![Hackathon 2024](https://img.shields.io/badge/Hackathon-2024-blue)](/assets/hackathon-soat.pdf)
 
-- Autenticação de usuário (paciente e médico)
-- Gerenciamento de agenda
-- Aceite de consulta
-- Agenda de consultas
+## Sumário
+1. [Identificação do problema](#identificação-do-problema)
+2. [Domain Driven Design](#domain-driven-design)
 
-### Identificação do problema
 
-Os estudos tem base em uma inovadora startup de telemedicina, que torna possível realizar consultas médicas online. Nosso objetivo é criar um sistema eficiente e seguro para conectar médicos e pacientes. Com este sistema, os pacientes poderão facilmente agendar consultas com médicos. Além disso, os médicos terão acesso ao prontuário eletrônico dos pacientes, mas apenas às informações que o paciente permitir. O sistema também facilitará para os médicos a gestão de suas agendas, permitindo aos pacientes ver os horários disponíveis e marcar consultas de forma prática.
+## Identificação do problema
 
-### Identificação dos domínios do negócio
+Os estudos baseiam-se em uma startup de telemedicina, que viabiliza a realização de consultas médicas online. Nosso objetivo é criar um sistema eficiente e seguro para conectar médicos e pacientes. Com este sistema, os pacientes poderão agendar consultas. Além disso, os médicos terão acesso ao prontuário eletrônico dos pacientes, respeitando as permissões concedidas por eles. O sistema também facilitará a gestão das agendas médicas, permitindo que os pacientes vejam os horários disponíveis e agendem consultas de forma prática e conveniente.
 
-#### Subdomínios principais
+## Domain Driven Design
 
-- Paciente
-- Médico
-- Consulta
-- Prontuário
+A partir do problema proposto, foi realizada uma análise do domínio do negócio, identificando os principais subdomínios e a linguagem ubíqua. Com base nessa análise, foram elaborados os fluxos de eventos e os domain storytelling, que serviram de base para a criação dos diagramas de modelagem, bem como outros diagramas que auxiliam na compreensão do sistema.
 
-#### Subdomínios de suporte
+[Documentação DDD](/ddd/README.md)
 
-- Agenda
-- Aceite de consulta
-
-#### Subdomínios genéricos
-
-- Autenticação
-- Notificação
-- Storage
-
-### Linguagem Ubíqua
-
-- Saúde: área de atuação do sistema
-- Telemedicina: prática de medicina à distância
-- Paciente: pessoa que busca atendimento médico
-- Médico: profissional de saúde que atende pacientes
-- Especialidade: área de atuação do médico
-- Consulta: encontro entre médico e paciente
-- Prontuário: registro médico do paciente, incluindo histórico de consultas e exames
-- Exame: procedimento médico para diagnóstico
-- Laudo: resultado de exame expedido por médico
-- Agenda: horários disponíveis para consultas
-- Aceite de consulta: confirmação de consulta por parte do médico
-- Autenticação: processo de validação de identidade
-- Notificação: mensagem enviada para informar sobre eventos
-- Storage: armazenamento de dados
-
-### Fluxos de eventos
-
-- a. Paciente agenda consulta
-  1. Paciente acessa o sistema
-  2. Paciente seleciona especialidade
-  3. Paciente seleciona médico
-  4. Paciente seleciona horário
-  5. Paciente confirma agendamento
-  6. Sistema envia notificação para médico
-  7. Médico aceita/recusa consulta
-  8. Sistema envia notificação para paciente
-- b. Médico acessa prontuário
-  1. Médico acessa o sistema
-  2. Médico seleciona paciente
-  3. Médico visualiza prontuário que paciente autorizou
-- c. Médico gerencia agenda
-  1. Médico acessa o sistema
-  2. Médico visualiza agenda
-  3. Médico cadastra/altera horários disponíveis
-- d. Paciente visualiza histórico de consultas
-  1. Paciente acessa o sistema
-  2. Paciente visualiza histórico de consultas
-- e. Paciente autoriza acesso a prontuário
-  1. Paciente acessa o sistema
-  2. Paciente escolhe os documentos que deseja compartilhar
-  3. Paciente escolhe médico
-  4. Paciente autoriza acesso
-  5. Sistema envia notificação para médico
-  6. Médico acessa prontuário
-- f. Reagendamento de consulta pelo paciente
-  1. Paciente acessa o sistema
-  2. Paciente visualiza consultas agendadas
-  3. Paciente solicita reagendamento
-  4. Sistema envia notificação para médico
-  5. Médico aceita/recusa reagendamento
-  6. Sistema envia notificação para paciente
-- g. Reagendamento de consulta pelo médico
-  1. Médico acessa o sistema
-  2. Médico visualiza consultas agendadas
-  3. Médico solicita reagendamento
-  4. Sistema envia notificação para paciente
-  5. Paciente aceita/cancela reagendamento
-  6. Sistema envia notificação para médico
-- h. Cancelamento de consulta pelo paciente
-  1. Paciente acessa o sistema
-  2. Paciente visualiza consultas agendadas
-  3. Paciente solicita cancelamento
-  4. Verificação se é possível cancelar a consulta
-     - Regra: consulta pode ser cancelada até 24h antes do horário marcado
-  5. Sistema envia notificação para médico
-- i. Cancelamento de consulta pelo médico
-  1. Médico acessa o sistema
-  2. Médico visualiza consultas agendadas
-  3. Médico solicita cancelamento
-  4. Verificação se é possível cancelar a consulta
-     - Regra: consulta pode ser cancelada até 24h antes do horário marcado
-  5. Sistema envia notificação de cancelamento para paciente
-  6. Sistema sugere reagendamento
-
-### Domain Storytelling
-
-#### Paciente agenda consulta
-
-![Paciente agenda consulta_2024-07-16](/domain-storytelling/Paciente%20agenda%20consulta_2024-07-22.egn.svg)
-
-#### Médico acessa prontuário
-
-![Médico acessa prontuário_2024-07-16](/domain-storytelling/Médico%20acessa%20prontuário_2024-07-22.egn.svg)
-
-#### Médico gerencia agenda
-
-![Médico gerencia agenda_2024-07-16](/domain-storytelling/Médico%20gerencia%20agenda_2024-07-22.egn.svg)
-
-#### Paciente visualiza histórico de consultas
-
-![Paciente visualiza histórico de consultas_2024-07-16](/domain-storytelling/Paciente%20visualiza%20histórico%20de%20consultas_2024-07-22.egn.svg)
-
-#### Paciente autoriza acesso a prontuário
-
-![Paciente autoriza acesso a prontuário_2024-07-17](/domain-storytelling/Paciente%20autoriza%20acesso%20a%20prontuário_2024-07-22.egn.svg)
-
-#### Reagendamento de consulta pelo paciente
-
-![Reagendamento de consulta pelo paciente_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
-
-#### Reagendamento de consulta pelo médico
-
-![Reagendamento de consulta pelo médico_2024-07-17](/domain-storytelling/Reagendamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
-
-#### Cancelamento de consulta pelo paciente
-
-![Cancelamento de consulta pelo paciente](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20paciente_2024-07-22.egn.svg)
-
-#### Cancelamento de consulta pelo médico
-
-![Cancelamento de consulta pelo médico_2024-07-17](/domain-storytelling/Cancelamento%20de%20consulta%20pelo%20médico_2024-07-22.egn.svg)
 
 ### Diagramas
 
