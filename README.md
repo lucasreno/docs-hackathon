@@ -88,15 +88,14 @@ _Mais informações podem ser encontradas nos repositórios dos microsserviços_
 Buscamos garantir a qualidade do código e a segurança do sistema, aplicando boas práticas de desenvolvimento. 
 
 - ### Testes unitários
-  (...) falar sobre os testes unitários e a cobertura de testes
+  Os testes unitários foram realizados com o Jest, que é um framework de testes para JavaScript. Os testes cobrem as principais funcionalidades dos microsserviços, garantindo que o código funcione corretamente e que possíveis regressões sejam identificadas. A cobertura de testes do microsserviço de autenticação foi de 82,25%, enquanto a cobertura do microsserviço de consulta foi de 92,69%. A rotina de testes foi automatizada com o Github Actions, que executa os testes a cada deploy.
+
+  [Documentação completa (leia mais...)](/teste-unitario/README.md)
 
 - ### Testes de carga
   O teste de carga realizado com a ferramenta K6 simulou 1.000 usuários simultâneos, gerando 13.624 requisições em 53.4 segundos, com uma taxa de sucesso de 95,06% e tempo médio de resposta de 1.89 segundos. Limitações de hardware e recursos impactaram tanto no número de usuários simulados quanto na capacidade de resposta do microsserviço.
 
   [Documentação completa (leia mais...)](/teste-carga/resultado.md)
-
-- ### SonarQube
-  O SonarQube é uma ferramenta de análise estática de código que identifica problemas de qualidade e segurança no código-fonte. O SonarQube foi utilizado para analisar a qualidade do código dos microsserviços, identificando possíveis vulnerabilidades e problemas de código.
 
 - ### Relatório OWASP ZAP
   O relatório do OWASP ZAP é uma ferramenta de segurança que identifica vulnerabilidades em aplicações web. O relatório foi gerado antes e depois da remediação das vulnerabilidades, com o intuito de avaliar a segurança do sistema.
@@ -151,12 +150,6 @@ Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviço
   - [x] RNF-3 Segurança
 
   _**Legenda:** RF (Requisito Funcional), RNF (Requisito Não Funcional)_
-
-
-## To-Do
-  - [ ] Testes unitários
-  - [ ] SonarQube
-  - [ ] CloudWatch
 
 ---
 

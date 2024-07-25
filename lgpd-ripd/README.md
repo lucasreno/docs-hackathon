@@ -1,5 +1,7 @@
 # Relatório de Impacto à Proteção de Dados Pessoais (RIPD) - Projeto Telemedicina
 
+[Voltar para documentação princpal](../README.md)
+
 ## Histórico de Revisões
 | Data       | Versão | Descrição                            | Autor                      |
 |------------|--------|--------------------------------------|----------------------------|

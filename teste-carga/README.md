@@ -1,5 +1,7 @@
 # Teste de carga
 
+[Voltar para documentação princpal](../README.md)
+
 ## Objetivo
 
 Testar a capacidade de resposta do servidor em relação a um grande número de requisições.
