@@ -160,6 +160,12 @@ Devido ao tempo limitado, o MVP foi focado na implementação dos microsserviço
 ---
 
 [![github@AlexandreKimura](https://img.shields.io/badge/@AlexandreKimura-000?logo=github&logoColor=white)](https://github.com/AlexandreKimura)
-[![github@lucasreno](https://img.shields.io/badge/@LucasReno-000?logo=github&logoColor=white)](https://github.com/lucasreno)
+[![github@lucasreno](https://img.shields.io/badge/@LucasReno-000?logo=github&logoColor=white)](https://github.com/lucas-renó-50023924)
 [![github@MMatiazzo](https://img.shields.io/badge/@MMatiazzo-000?logo=github&logoColor=white)](https://github.com/MMatiazzo)
 [![github@Carloto](https://img.shields.io/badge/@Carloto-000?logo=github&logoColor=white)](https://github.com/Carloto)
+
+
+[![linkedin@AlexandreKimura](https://img.shields.io/badge/Alexandre%20Kimura-000?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-mikio-kimura-fukano/)
+[![linkedin@LucasReno](https://img.shields.io/badge/Lucas%20Renó-000?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasreno/)
+[![linkedin@MMatiazzo](https://img.shields.io/badge/Matheus%20Matiazzo-000?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-matiazzo/)
+[![linkedin@Carloto](https://img.shields.io/badge/Vinicius%20Carloto-000?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vcarloto/)
